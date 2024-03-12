@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjs53oe88jb0i"]
+
+[ext_resource type="ArrayMesh" uid="uid://c3fdont4e4pf4" path="res://models/basic_button/model.obj" id="1_ojynt"]
+
+[node name="BasicButton" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.205, 0, 0, 0, -8.96083e-09, -0.205, 0, 0.205, -8.96083e-09, 0, -0.467683, 0)
+mesh = ExtResource("1_ojynt")

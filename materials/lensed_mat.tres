@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://2pv1oecbcrwj"]
+
+[ext_resource type="Shader" path="res://shaders/lensed_body.gdshader" id="1_fvegl"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fvegl")
+shader_parameter/isEnabled = null

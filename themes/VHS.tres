@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://tpyx1xmltsvt"]
+
+[ext_resource type="FontFile" uid="uid://dyd4nmtb2b28i" path="res://fonts/VCR_OSD_MONO_1.001.ttf" id="1_ij7ex"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8qm8i"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wrvas"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_831ks"]
+bg_color = Color(0, 0, 0, 1)
+border_color = Color(0, 0, 0, 1)
+
+[resource]
+Button/colors/font_hover_color = Color(0.529412, 0.505882, 0.490196, 1)
+Button/fonts/font = ExtResource("1_ij7ex")
+Button/styles/hover = SubResource("StyleBoxFlat_8qm8i")
+Button/styles/normal = SubResource("StyleBoxFlat_wrvas")
+Button/styles/pressed = SubResource("StyleBoxFlat_831ks")
+Label/fonts/font = ExtResource("1_ij7ex")

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="QodotFGDModelPointClass" load_steps=3 format=3 uid="uid://bjmlwfimdqyqc"]
+
+[ext_resource type="PackedScene" uid="uid://oistob10u37o" path="res://scenes/assets/panel_light.tscn" id="1_txpc0"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_model_point_class.gd" id="2_ocjuf"]
+
+[resource]
+script = ExtResource("2_ocjuf")
+trenchbroom_working_folder = "/home/tesscat/acerola_jam"
+trenchbroom_models_folder = ""
+scale_expression = "16"
+generate_size_property = false
+generate_gd_ignore_file = false
+scene_file = ExtResource("1_txpc0")
+apply_rotation_on_map_build = true
+classname = "light_panel"
+description = "A panel light"
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {
+"light_strength": 0.2
+}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"model": "{\"path\": \"light_panel.glb\", \"scale\": 16 }",
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = ""
+transient_node = false

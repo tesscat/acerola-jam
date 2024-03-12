@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://bhgaiukwcr6l6"
+path="res://.godot/imported/ending_lore.map-b7357436f08bc6aa8ef3f738889462a7.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/ending_lore.map"
+dest_files=["res://.godot/imported/ending_lore.map-b7357436f08bc6aa8ef3f738889462a7.tres"]
+
+[params]
+

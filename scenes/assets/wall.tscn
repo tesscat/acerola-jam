@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://j3g0mjy2lrt1"]
+
+[ext_resource type="Texture2D" uid="uid://dnf7golmhuelk" path="res://textures/main/wall.png" id="1_agxhr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_tffhe"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c64g7"]
+albedo_texture = ExtResource("1_agxhr")
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jaygf"]
+
+[node name="Wall" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("BoxMesh_tffhe")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_c64g7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_jaygf")

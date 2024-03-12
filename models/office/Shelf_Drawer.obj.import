@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://uaddg4lcvcy5"
+path="res://.godot/imported/Shelf_Drawer.obj-ed2d79d446ec481a2796d0db7b830626.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shelf_Drawer.obj-ed2d79d446ec481a2796d0db7b830626.mesh"]
+
+source_file="res://models/office/Shelf_Drawer.obj"
+dest_files=["res://.godot/imported/Shelf_Drawer.obj-ed2d79d446ec481a2796d0db7b830626.mesh", "res://.godot/imported/Shelf_Drawer.obj-ed2d79d446ec481a2796d0db7b830626.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

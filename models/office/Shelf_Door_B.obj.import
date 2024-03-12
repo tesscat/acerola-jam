@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p1agjuhe7rx8"
+path="res://.godot/imported/Shelf_Door_B.obj-eed049c3174c599bcf2555bea23357ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shelf_Door_B.obj-eed049c3174c599bcf2555bea23357ca.mesh"]
+
+source_file="res://models/office/Shelf_Door_B.obj"
+dest_files=["res://.godot/imported/Shelf_Door_B.obj-eed049c3174c599bcf2555bea23357ca.mesh", "res://.godot/imported/Shelf_Door_B.obj-eed049c3174c599bcf2555bea23357ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

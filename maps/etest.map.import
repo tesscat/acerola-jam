@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://csnuhr438fjjx"
+path="res://.godot/imported/etest.map-0180469e3c9e15da7f613be6c1239eb1.tres"
+
+[deps]
+
+source_file="res://maps/etest.map"
+dest_files=["res://.godot/imported/etest.map-0180469e3c9e15da7f613be6c1239eb1.tres"]
+
+[params]
+

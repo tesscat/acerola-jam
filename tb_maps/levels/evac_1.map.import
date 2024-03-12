@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://mtvv6eb2ydha"
+path="res://.godot/imported/evac_1.map-bd1c32835b199eaf00fb1c02d10a6663.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/evac_1.map"
+dest_files=["res://.godot/imported/evac_1.map-bd1c32835b199eaf00fb1c02d10a6663.tres"]
+
+[params]
+

@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://dcxfdhmqtvum3"]
+
+[ext_resource type="Script" path="res://scripts/door.gd" id="1_4lqd1"]
+[ext_resource type="Texture2D" uid="uid://dnf7golmhuelk" path="res://textures/main/wall.png" id="2_lthvx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_dbu4t"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_206mw"]
+albedo_color = Color(0.486275, 0.486275, 0.486275, 1)
+albedo_texture = ExtResource("2_lthvx")
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lbqxq"]
+albedo_color = Color(0.588235, 0.6, 0.588235, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dpynm"]
+size = Vector3(0.98877, 0.877197, 0.194702)
+
+[node name="Door" type="Node3D"]
+script = ExtResource("1_4lqd1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.14, 0, 0, 0, 1, 0, 0, 0, 0.2, -0.4375, 0.5, 0)
+mesh = SubResource("BoxMesh_dbu4t")
+surface_material_override/0 = SubResource("StandardMaterial3D_206mw")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.14, 0, 0, 0, 1, 0, 0, 0, 0.2, 0.4375, 0.5, 0)
+mesh = SubResource("BoxMesh_dbu4t")
+surface_material_override/0 = SubResource("StandardMaterial3D_206mw")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.976, 0, 0, 0, 0.14, 0, 0, 0, 0.2, 0, 0.930134, 0)
+mesh = SubResource("BoxMesh_dbu4t")
+surface_material_override/0 = SubResource("StandardMaterial3D_206mw")
+
+[node name="Area3D" type="StaticBody3D" parent="."]
+
+[node name="DoorPanel" type="MeshInstance3D" parent="Area3D"]
+transform = Transform3D(0.976, 0, 0, 0, 0.929641, 0, 0, 0, 0.0946659, 0, 0.44861, 0)
+mesh = SubResource("BoxMesh_dbu4t")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_lbqxq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00561523, 0.453003, 0.00762939)
+shape = SubResource("BoxShape3D_dpynm")

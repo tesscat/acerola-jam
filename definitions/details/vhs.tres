@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="QodotFGDModelPointClass" load_steps=3 format=3 uid="uid://b1ib7hixxkwsu"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_model_point_class.gd" id="1_ec0e7"]
+[ext_resource type="PackedScene" uid="uid://cy36ay640yify" path="res://scenes/assets/vhs.tscn" id="1_rn1et"]
+
+[resource]
+script = ExtResource("1_ec0e7")
+trenchbroom_working_folder = "/home/tesscat/acerola_jam"
+trenchbroom_models_folder = ""
+scale_expression = "16"
+generate_size_property = false
+generate_gd_ignore_file = false
+scene_file = ExtResource("1_rn1et")
+apply_rotation_on_map_build = true
+classname = "detail_vhs"
+description = "vhs!"
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = "Node3D"
+transient_node = false

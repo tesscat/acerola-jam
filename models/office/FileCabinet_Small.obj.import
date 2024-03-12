@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doyiai8entd3m"
+path="res://.godot/imported/FileCabinet_Small.obj-b7858992c6df946c46ac7506776f576c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/FileCabinet_Small.obj-b7858992c6df946c46ac7506776f576c.mesh"]
+
+source_file="res://models/office/FileCabinet_Small.obj"
+dest_files=["res://.godot/imported/FileCabinet_Small.obj-b7858992c6df946c46ac7506776f576c.mesh", "res://.godot/imported/FileCabinet_Small.obj-b7858992c6df946c46ac7506776f576c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

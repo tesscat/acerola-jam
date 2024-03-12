@@ -1,0 +1,8 @@
+[gd_resource type="CurveTexture" load_steps=2 format=3 uid="uid://bsmvo67ybaetc"]
+
+[sub_resource type="Curve" id="Curve_1bv05"]
+_data = [Vector2(0, 0), 0.0, 0.484055, 0, 0, Vector2(0.111554, 0), 0.0, 0.0, 0, 0, Vector2(0.258964, 1), 0.0, 0.0, 0, 0, Vector2(0.406375, 0), 0.0, 0.0, 0, 0, Vector2(0.521912, 0), 0.0, 0.0, 0, 0, Vector2(0.645418, 0), 0.0, 0.0, 0, 0, Vector2(0.752988, 1), 0.0, 0.0, 0, 0, Vector2(0.89243, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 9
+
+[resource]
+curve = SubResource("Curve_1bv05")

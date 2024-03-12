@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cgwyybqv6yfk8"]
+
+[ext_resource type="AudioStream" uid="uid://cb3qijqubei7b" path="res://sfx/brown_noise.mp3" id="1_747lx"]
+[ext_resource type="Script" path="res://scripts/bg_noise.gd" id="2_smae4"]
+
+[node name="BackgroundMusic" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_747lx")
+volume_db = -6.375
+script = ExtResource("2_smae4")

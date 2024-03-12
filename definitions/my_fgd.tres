@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="QodotFGDFile" load_steps=19 format=3 uid="uid://brd3wjk6r15km"]
+
+[ext_resource type="Resource" uid="uid://c36hv0o6g0udo" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="1_4rjge"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_file.gd" id="1_n3kd7"]
+[ext_resource type="Resource" uid="uid://bvmer1to1gejs" path="res://definitions/test2.tres" id="3_8mneu"]
+[ext_resource type="Resource" uid="uid://chu6aovgy058d" path="res://definitions/objective.tres" id="3_786c0"]
+[ext_resource type="Resource" uid="uid://bsswklwyy0ox4" path="res://definitions/button.tres" id="3_y8vdb"]
+[ext_resource type="Resource" uid="uid://bjmlwfimdqyqc" path="res://definitions/panel_light.tres" id="4_plaa1"]
+[ext_resource type="Resource" uid="uid://dh0cowheqlnds" path="res://definitions/visual_button.tres" id="6_00iq3"]
+[ext_resource type="Resource" uid="uid://c6hun8w8jaeq4" path="res://definitions/lensed_body.tres" id="6_sl28c"]
+[ext_resource type="Resource" uid="uid://c0i6a6j1smhe3" path="res://definitions/checkpoint.tres" id="7_oix1h"]
+[ext_resource type="Resource" uid="uid://d3e8oc4kaf1vf" path="res://definitions/player_spawnpoint.tres" id="8_bhelq"]
+[ext_resource type="Resource" uid="uid://bqrqxd1ojsihk" path="res://definitions/elevator.tres" id="10_weuj7"]
+[ext_resource type="Resource" uid="uid://d4f48sqcy1mq7" path="res://definitions/kills_you.tres" id="11_b8fre"]
+[ext_resource type="Resource" uid="uid://dsc7hfo1ttnod" path="res://definitions/details/desk.tres" id="12_8pjto"]
+[ext_resource type="Resource" uid="uid://b1ib7hixxkwsu" path="res://definitions/details/vhs.tres" id="13_nhj1q"]
+[ext_resource type="Resource" uid="uid://bf33vfgstk57" path="res://definitions/trigger_lore.tres" id="14_dweto"]
+[ext_resource type="Resource" uid="uid://b7mh0b03tbdts" path="res://definitions/details/cubible_1.tres" id="15_8007i"]
+[ext_resource type="Resource" uid="uid://b0nxc1omiqmcy" path="res://definitions/details/cubible_2.tres" id="16_55glv"]
+[ext_resource type="Resource" uid="uid://h7de2aw85oqn" path="res://definitions/details/cubible_3.tres" id="17_2ou4k"]
+
+[resource]
+script = ExtResource("1_n3kd7")
+export_file = false
+target_folder = ""
+fgd_name = "MyFGD"
+base_fgd_files = Array[Resource]([ExtResource("1_4rjge")])
+entity_definitions = Array[Resource]([ExtResource("3_8mneu"), ExtResource("3_y8vdb"), ExtResource("4_plaa1"), ExtResource("6_00iq3"), ExtResource("6_sl28c"), ExtResource("7_oix1h"), ExtResource("8_bhelq"), ExtResource("3_786c0"), ExtResource("10_weuj7"), ExtResource("11_b8fre"), ExtResource("12_8pjto"), ExtResource("13_nhj1q"), ExtResource("14_dweto"), ExtResource("15_8007i"), ExtResource("16_55glv"), ExtResource("17_2ou4k")])

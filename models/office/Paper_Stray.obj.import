@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cw1w0oq6mbh5v"
+path="res://.godot/imported/Paper_Stray.obj-b36e2a6261f1d94e9801d31ec5f2fb48.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Paper_Stray.obj-b36e2a6261f1d94e9801d31ec5f2fb48.mesh"]
+
+source_file="res://models/office/Paper_Stray.obj"
+dest_files=["res://.godot/imported/Paper_Stray.obj-b36e2a6261f1d94e9801d31ec5f2fb48.mesh", "res://.godot/imported/Paper_Stray.obj-b36e2a6261f1d94e9801d31ec5f2fb48.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

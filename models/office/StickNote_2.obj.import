@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dg6n0ld2a3lpk"
+path="res://.godot/imported/StickNote_2.obj-6da8849d172b2e56a781e81108ae73d7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/StickNote_2.obj-6da8849d172b2e56a781e81108ae73d7.mesh"]
+
+source_file="res://models/office/StickNote_2.obj"
+dest_files=["res://.godot/imported/StickNote_2.obj-6da8849d172b2e56a781e81108ae73d7.mesh", "res://.godot/imported/StickNote_2.obj-6da8849d172b2e56a781e81108ae73d7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

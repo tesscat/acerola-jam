@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dul2j2pj1ky16"
+path="res://.godot/imported/Nature_Deco.obj-506c4af10a62d75fc77e5e21042cf479.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Nature_Deco.obj-506c4af10a62d75fc77e5e21042cf479.mesh"]
+
+source_file="res://models/office/Nature_Deco.obj"
+dest_files=["res://.godot/imported/Nature_Deco.obj-506c4af10a62d75fc77e5e21042cf479.mesh", "res://.godot/imported/Nature_Deco.obj-506c4af10a62d75fc77e5e21042cf479.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

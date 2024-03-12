@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="QodotFGDPointClass" load_steps=3 format=3 uid="uid://bvmer1to1gejs"]
+
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_point_class.gd" id="1_s72x1"]
+[ext_resource type="Script" path="res://definitions/test.gd" id="2_uqpva"]
+
+[resource]
+script = ExtResource("1_s72x1")
+script_class = ExtResource("2_uqpva")
+apply_rotation_on_map_build = true
+classname = "light_omni"
+description = "Omnidirectional light"
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {
+"energy": 1,
+"light_color": "255 255 255",
+"range": 5,
+"shadow_enabled": "true"
+}
+class_property_descriptions = {}
+meta_properties = {
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = "OmniLight3D"
+transient_node = false

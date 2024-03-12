@@ -1,0 +1,637 @@
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_3.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 38ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 254ms
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_4.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 22ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 12ms
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Created autosave backup at /home/tesscat/acerola_jam/tb_maps/levels/autosave/level_4.1.map
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_0.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 31ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_0.map in 60ms
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_0.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_0.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_0.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_0.map in 12ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_1.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 31ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 60ms
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 11ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_2.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 31ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 78ms
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_1.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 6ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_3.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 31ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 76ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 11ms
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_3.map in 12ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_4.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 27ms
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_2.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Loaded texture collection 'textures/main' in 31ms
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 82ms
+Renderer info: AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1) version 4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1 from AMD
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/tesscat/acerola_jam/.
+Loading document from /home/tesscat/acerola_jam/tb_maps/levels/level_4.map
+No matching super class found for 'Targetname' (line 15, column 13)
+No matching super class found for 'Target' (line 15, column 13)
+No matching super class found for 'Targetname' (line 19, column 13)
+No matching super class found for 'Target' (line 19, column 13)
+No matching super class found for 'Light' (line 23, column 13)
+Loaded entity definition file MyFGD.fgd
+Model elevator.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model elevator.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Loaded /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 29ms
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_1.glb: Loading fallback material for material nr. 11: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 6: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_2.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_desk.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat23: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material mat24: Material does not contain a texture.
+Model detail_vhs.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model light_panel.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat21: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat22: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material mat8: Material does not contain a texture.
+Model visual_button.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 1: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 3: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 4: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 5: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material Palette2: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material PC: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 9: Material does not contain a texture.
+Model detail_cubicle_3.glb: Loading fallback material for material nr. 10: Material does not contain a texture.
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 14ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 13ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_2.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 16ms
+Created autosave backup at /home/tesscat/acerola_jam/tb_maps/levels/autosave/level_4.2.map
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 14ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 13ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Created autosave backup at /home/tesscat/acerola_jam/tb_maps/levels/autosave/level_4.3.map
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 11ms
+Saved /home/tesscat/acerola_jam/tb_maps/levels/level_4.map in 12ms

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://divq1kg6ihnqt"
+path="res://.godot/imported/Chair_Office_Wheel.obj-4e5c5af9efe11f521eae185566a8abdd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Chair_Office_Wheel.obj-4e5c5af9efe11f521eae185566a8abdd.mesh"]
+
+source_file="res://models/office/Chair_Office_Wheel.obj"
+dest_files=["res://.godot/imported/Chair_Office_Wheel.obj-4e5c5af9efe11f521eae185566a8abdd.mesh", "res://.godot/imported/Chair_Office_Wheel.obj-4e5c5af9efe11f521eae185566a8abdd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

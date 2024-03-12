@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=3 uid="uid://vw0sgiguykwk"]
+
+[ext_resource type="Script" path="res://scripts/lore_single_texbox.gd" id="1_lulmr"]
+[ext_resource type="Script" path="res://scripts/lore_first_contact.gd" id="1_oponl"]
+[ext_resource type="Theme" uid="uid://tpyx1xmltsvt" path="res://themes/VHS.tres" id="2_i7v1l"]
+[ext_resource type="Shader" path="res://shaders/vbars_canvas.gdshader" id="3_dmkca"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_05ufe"]
+shader = ExtResource("3_dmkca")
+shader_parameter/colourSplitIntensity = 0.4
+shader_parameter/noiseIntensity_u = 0.4
+shader_parameter/barsIntensity = 0.5
+
+[node name="LoreFirstContact" type="Node2D"]
+script = ExtResource("1_oponl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("1_lulmr")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer"]
+autoplay = true
+
+[node name="BG" type="ColorRect" parent="CanvasLayer"]
+offset_left = -26.0
+offset_top = -12.0
+offset_right = 980.0
+offset_bottom = 566.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnyKeyContinue" type="Label" parent="CanvasLayer"]
+offset_right = 272.0
+offset_bottom = 15.0
+theme = ExtResource("2_i7v1l")
+theme_override_font_sizes/font_size = 12
+text = "INCOMING COMMUNICATION:  
+Ohhh, hello.    
+I see you've got a Lens. Figured out how they work yet?
+You can make things appear with them. 
+You can make things dissapear with them.
+          
+It looks kinda cute on you. The colour really suits your...
+mechanical-y exterior.    
+It looks like an exterior that's full of secrets.   
+Oh, how I'd love to unwrap a good secret again...
+    
+This place is full of secrets. Can't you smell them?  
+The wonderful scent of old, old books, of hidden stories,
+of tales longing to be told.  
+Of information waiting to be gained.  
+Of knowledge waiting to be shared.  
+  
+Could you do a favour for me, little one?   
+I've been lost in the depths of this maze for damn near forever.  
+I'd love to be told some stories, and I think this place has some
+curious tapes lying around.  
+You know, the VHS kind.    
+Could you find some for me? Oh, how I would love a good tale.
+<<<< EOF press any key to exit dialog
+"
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource("ShaderMaterial_05ufe")
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2

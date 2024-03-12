@@ -1,0 +1,270 @@
+// Game: JamminEntities
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"classname" "worldspawn"
+"_tb_textures" "textures/main"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -15 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -48 -16 ) ( -64 -48 -15 ) ( -63 -48 -16 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 0 ) ( -63 -64 0 ) ( -64 -63 0 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) main/white_panels [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 48 16 ) ( 65 48 16 ) ( 64 48 17 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 64 16 ) ( 960 64 17 ) ( 960 65 16 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 1
+{
+( -112 -16 0 ) ( -112 -15 0 ) ( -112 -16 1 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -112 -16 0 ) ( -112 -16 1 ) ( -111 -16 0 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -112 -16 0 ) ( -111 -16 0 ) ( -112 -15 0 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 16 16 ) ( -64 17 16 ) ( -63 16 16 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 16 16 ) ( -63 16 16 ) ( -64 16 17 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 16 16 ) ( -64 16 17 ) ( -64 17 16 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 2
+{
+( -80 16 0 ) ( -80 17 0 ) ( -80 16 1 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 16 0 ) ( -80 16 1 ) ( -79 16 0 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 16 0 ) ( -79 16 0 ) ( -80 17 0 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 64 112 ) ( -64 65 112 ) ( -63 64 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 48 16 ) ( -63 48 16 ) ( -64 48 17 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 64 16 ) ( -64 64 17 ) ( -64 65 16 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 3
+{
+( -80 -64 0 ) ( -80 -63 0 ) ( -80 -64 1 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 -48 0 ) ( -80 -48 1 ) ( -79 -48 0 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 -64 0 ) ( -79 -64 0 ) ( -80 -63 0 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 -16 112 ) ( -64 -15 112 ) ( -63 -16 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 -16 16 ) ( -63 -16 16 ) ( -64 -16 17 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -16 16 ) ( -64 -16 17 ) ( -64 -15 16 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 4
+{
+( -80 -16 80 ) ( -80 -15 80 ) ( -80 -16 81 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 -16 80 ) ( -80 -16 81 ) ( -79 -16 80 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -80 -16 68 ) ( -79 -16 68 ) ( -80 -15 68 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 16 112 ) ( -64 17 112 ) ( -63 16 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 16 112 ) ( -63 16 112 ) ( -64 16 113 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 16 112 ) ( -64 16 113 ) ( -64 17 112 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 5
+{
+( 960 -16 16 ) ( 960 -16 17 ) ( 960 -17 16 ) main/rubber [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 -16 16 ) ( 959 -16 16 ) ( 960 -16 17 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1008 16 0 ) ( 1007 16 0 ) ( 1008 15 0 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 960 -16 16 ) ( 960 -17 16 ) ( 959 -16 16 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 1008 16 0 ) ( 1008 16 1 ) ( 1007 16 0 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1008 16 0 ) ( 1008 15 0 ) ( 1008 16 1 ) main/rubber [ -1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 6
+{
+( 960 16 16 ) ( 960 16 17 ) ( 960 15 16 ) main/rubber [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 16 16 ) ( 959 16 16 ) ( 960 16 17 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 64 0 ) ( 975 64 0 ) ( 976 63 0 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 960 16 112 ) ( 960 15 112 ) ( 959 16 112 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 976 48 0 ) ( 976 48 1 ) ( 975 48 0 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 64 0 ) ( 976 63 0 ) ( 976 64 1 ) main/rubber [ -1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 7
+{
+( 960 -64 16 ) ( 960 -64 17 ) ( 960 -65 16 ) main/rubber [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 -48 16 ) ( 959 -48 16 ) ( 960 -48 17 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 -16 0 ) ( 975 -16 0 ) ( 976 -17 0 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 960 -64 112 ) ( 960 -65 112 ) ( 959 -64 112 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 976 -16 0 ) ( 976 -16 1 ) ( 975 -16 0 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 -16 0 ) ( 976 -17 0 ) ( 976 -16 1 ) main/rubber [ -1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 8
+{
+( 960 -16 112 ) ( 960 -16 113 ) ( 960 -17 112 ) main/rubber [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 -16 112 ) ( 959 -16 112 ) ( 960 -16 113 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 16 68 ) ( 975 16 68 ) ( 976 15 68 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 960 -16 112 ) ( 960 -17 112 ) ( 959 -16 112 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 976 16 80 ) ( 976 16 81 ) ( 975 16 80 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 976 16 80 ) ( 976 15 80 ) ( 976 16 81 ) main/rubber [ -1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 9
+{
+( -64 32 16 ) ( -64 33 16 ) ( -64 32 17 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 32 16 ) ( -64 32 17 ) ( -63 32 16 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 32 16 ) ( -63 32 16 ) ( -64 33 16 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 48 112 ) ( 960 49 112 ) ( 961 48 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 48 112 ) ( 961 48 112 ) ( 960 48 113 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 48 112 ) ( 960 48 113 ) ( 960 49 112 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 10
+{
+( -64 -48 16 ) ( -64 -47 16 ) ( -64 -48 17 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -48 16 ) ( -64 -48 17 ) ( -63 -48 16 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -48 16 ) ( -63 -48 16 ) ( -64 -47 16 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 -32 112 ) ( 960 -31 112 ) ( 961 -32 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 -32 112 ) ( 961 -32 112 ) ( 960 -32 113 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 -32 112 ) ( 960 -32 113 ) ( 960 -31 112 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 11
+{
+( -64 -32 96 ) ( -64 -31 96 ) ( -64 -32 97 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -32 96 ) ( -64 -32 97 ) ( -63 -32 96 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -32 96 ) ( -63 -32 96 ) ( -64 -31 96 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 32 112 ) ( 960 33 112 ) ( 961 32 112 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 960 32 112 ) ( 961 32 112 ) ( 960 32 113 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 960 32 112 ) ( 960 32 113 ) ( 960 33 112 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 1
+{
+"classname" "elevator"
+"origin" "-88 0 12"
+"entrance_name" "entry_1"
+"is_spawn" "0"
+"level_name" "dof_1"
+"target_entrance" "entry_2"
+}
+// entity 2
+{
+"classname" "elevator"
+"origin" "984 0 12"
+"angle" "180"
+"level_name" "ending_evac"
+}
+// entity 3
+{
+"classname" "detail_desk"
+"origin" "-56 -24 24"
+"angle" "90"
+}
+// entity 4
+{
+"classname" "detail_vhs"
+"origin" "-56 -24 24"
+"angle" "60"
+}
+// entity 5
+{
+"classname" "trigger_lore"
+"lore" "Evacuation log #4:\nIt moves so fast.\nAnd it learns.\nIt knew. It knew all along.\nHow delusional we were, to try and\n\"research\" the fundamental forces of the universe?\nHell, it'd be a miracle if even this tape survived."
+// brush 0
+{
+( -60 -28 16 ) ( -60 -27 16 ) ( -60 -28 17 ) main/white_panels [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -60 -28 16 ) ( -60 -28 17 ) ( -59 -28 16 ) main/white_panels [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -60 -28 16 ) ( -59 -28 16 ) ( -60 -27 16 ) main/white_panels [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -52 -20 28 ) ( -52 -19 28 ) ( -51 -20 28 ) main/white_panels [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -52 -20 28 ) ( -51 -20 28 ) ( -52 -20 29 ) main/white_panels [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -52 -20 28 ) ( -52 -20 29 ) ( -52 -19 28 ) main/white_panels [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 6
+{
+"classname" "trigger_lore"
+"lore" "Evacuation log #6:\nThe Clarity, they called it.\nReally, a fitting name for the clearest-thinking thing known to man,\nan entity with the sole purpose of mkaing everything the same.\nNo day, no night, just the eternal uniformity.\nAnd it learns."
+// brush 0
+{
+( 132 24 16 ) ( 132 25 16 ) ( 132 24 17 ) main/white_panels [ 0 -1 0 52 ] [ 0 0 -1 0 ] 0 1 1
+( 132 24 16 ) ( 132 24 17 ) ( 133 24 16 ) main/white_panels [ 1 0 0 -192 ] [ 0 0 -1 0 ] 0 1 1
+( 132 24 16 ) ( 133 24 16 ) ( 132 25 16 ) main/white_panels [ -1 0 0 192 ] [ 0 -1 0 52 ] 0 1 1
+( 140 32 28 ) ( 140 33 28 ) ( 141 32 28 ) main/white_panels [ 1 0 0 -192 ] [ 0 -1 0 52 ] 0 1 1
+( 140 32 28 ) ( 141 32 28 ) ( 140 32 29 ) main/white_panels [ -1 0 0 192 ] [ 0 0 -1 0 ] 0 1 1
+( 140 32 28 ) ( 140 32 29 ) ( 140 33 28 ) main/white_panels [ 0 1 0 -52 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 7
+{
+"classname" "detail_desk"
+"origin" "136 28 24"
+"angle" "90"
+}
+// entity 8
+{
+"classname" "detail_vhs"
+"origin" "136 28 24"
+"angle" "60"
+}
+// entity 9
+{
+"classname" "trigger_lore"
+"lore" "Evacuation log #10:\nEven if we make it out, I reckon we're still screwed.\nIt's not like this thing's gonna stop at the doors to the Facility.\nI mean it sure didn't for the other six of 'em.\nHave we really just brought about doomsday?\nIs the universe seriously going to turn into like...\nangry soup?"
+// brush 0
+{
+( 260 -28 16 ) ( 260 -27 16 ) ( 260 -28 17 ) main/white_panels [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 260 -28 16 ) ( 260 -28 17 ) ( 261 -28 16 ) main/white_panels [ 1 0 0 -320 ] [ 0 0 -1 0 ] 0 1 1
+( 260 -28 16 ) ( 261 -28 16 ) ( 260 -27 16 ) main/white_panels [ -1 0 0 320 ] [ 0 -1 0 0 ] 0 1 1
+( 268 -20 28 ) ( 268 -19 28 ) ( 269 -20 28 ) main/white_panels [ 1 0 0 -320 ] [ 0 -1 0 0 ] 0 1 1
+( 268 -20 28 ) ( 269 -20 28 ) ( 268 -20 29 ) main/white_panels [ -1 0 0 320 ] [ 0 0 -1 0 ] 0 1 1
+( 268 -20 28 ) ( 268 -20 29 ) ( 268 -19 28 ) main/white_panels [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 10
+{
+"classname" "detail_desk"
+"origin" "264 -24 24"
+"angle" "90"
+"lore" "Evacuation log #10:\nEven if we make it out, I reckon we're still screwed.\nIt's not like this thing's gonna stop at the doors to the Facility.\nI mean it sure didn't for the other six of 'em.\nHave we really just brought about doomsday?\nIs the universe seriously going to turn into like...\nangry soup?"
+}
+// entity 11
+{
+"classname" "detail_vhs"
+"origin" "264 -24 24"
+"angle" "60"
+"lore" "Evacuation log #10:\nEven if we make it out, I reckon we're still screwed.\nIt's not like this thing's gonna stop at the doors to the Facility.\nI mean it sure didn't for the other six of 'em.\nHave we really just brought about doomsday?\nIs the universe seriously going to turn into like...\nangry soup?"
+}
+// entity 12
+{
+"classname" "trigger_lore"
+"lore" "Evacuation log #20:\nTurns out the Lenses we made to see it\njust let it see us too.\nWho would've thought?\nPeople were saying it was talking to them, calling gently for them to jump in,\nthe irresistible call of the void."
+// brush 0
+{
+( 644 -4 16 ) ( 644 -3 16 ) ( 644 -4 17 ) main/white_panels [ 0 -1 0 24 ] [ 0 0 -1 0 ] 0 1 1
+( 644 -4 16 ) ( 644 -4 17 ) ( 645 -4 16 ) main/white_panels [ 1 0 0 -704 ] [ 0 0 -1 0 ] 0 1 1
+( 644 -4 16 ) ( 645 -4 16 ) ( 644 -3 16 ) main/white_panels [ -1 0 0 704 ] [ 0 -1 0 24 ] 0 1 1
+( 652 4 28 ) ( 652 5 28 ) ( 653 4 28 ) main/white_panels [ 1 0 0 -704 ] [ 0 -1 0 24 ] 0 1 1
+( 652 4 28 ) ( 653 4 28 ) ( 652 4 29 ) main/white_panels [ -1 0 0 704 ] [ 0 0 -1 0 ] 0 1 1
+( 652 4 28 ) ( 652 4 29 ) ( 652 5 28 ) main/white_panels [ 0 1 0 -24 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 13
+{
+"classname" "detail_desk"
+"origin" "648 0 24"
+"angle" "90"
+"lore" "Evacuation log #10:\nEven if we make it out, I reckon we're still screwed.\nIt's not like this thing's gonna stop at the doors to the Facility.\nI mean it sure didn't for the other six of 'em.\nHave we really just brought about doomsday?\nIs the universe seriously going to turn into like...\nangry soup?"
+}
+// entity 14
+{
+"classname" "detail_vhs"
+"origin" "648 0 24"
+"angle" "60"
+"lore" "Evacuation log #10:\nEven if we make it out, I reckon we're still screwed.\nIt's not like this thing's gonna stop at the doors to the Facility.\nI mean it sure didn't for the other six of 'em.\nHave we really just brought about doomsday?\nIs the universe seriously going to turn into like...\nangry soup?"
+}
+// entity 15
+{
+"classname" "light_panel"
+"origin" "0 0 88"
+}
+// entity 16
+{
+"classname" "light_panel"
+"origin" "192 0 88"
+}
+// entity 17
+{
+"classname" "light_panel"
+"origin" "384 0 88"
+}
+// entity 18
+{
+"classname" "light_panel"
+"origin" "576 0 88"
+}
+// entity 19
+{
+"classname" "light_panel"
+"origin" "768 0 88"
+}
+// entity 20
+{
+"classname" "light_panel"
+"origin" "944 0 88"
+}

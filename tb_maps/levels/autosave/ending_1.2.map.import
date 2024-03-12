@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://b1xvq1xikim3x"
+path="res://.godot/imported/ending_1.2.map-887fbd8b01dacc2618424480c91b4e08.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/autosave/ending_1.2.map"
+dest_files=["res://.godot/imported/ending_1.2.map-887fbd8b01dacc2618424480c91b4e08.tres"]
+
+[params]
+

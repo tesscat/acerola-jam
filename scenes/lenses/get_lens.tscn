@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://cymtuiktmky6o"]
+
+[ext_resource type="Script" path="res://scripts/get_lens.gd" id="1_k75ds"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2s2hl"]
+size = Vector3(1, 5.48645, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_gb6hk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tv7nq"]
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 4.0
+
+[node name="GetLens" type="Node3D"]
+
+[node name="Area3D" type="Area3D" parent="." node_paths=PackedStringArray("MI")]
+script = ExtResource("1_k75ds")
+MI = NodePath("../MeshInstance3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00494385, 0)
+shape = SubResource("BoxShape3D_2s2hl")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_gb6hk")
+surface_material_override/0 = SubResource("StandardMaterial3D_tv7nq")

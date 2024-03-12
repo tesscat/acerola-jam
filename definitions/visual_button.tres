@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="QodotFGDModelPointClass" load_steps=3 format=3 uid="uid://dh0cowheqlnds"]
+
+[ext_resource type="PackedScene" uid="uid://cjs53oe88jb0i" path="res://scenes/assets/basic_button.tscn" id="1_vh1uv"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_model_point_class.gd" id="2_cqoxr"]
+
+[resource]
+script = ExtResource("2_cqoxr")
+trenchbroom_working_folder = "/home/tesscat/acerola_jam"
+trenchbroom_models_folder = ""
+scale_expression = "16"
+generate_size_property = false
+generate_gd_ignore_file = true
+scene_file = ExtResource("1_vh1uv")
+apply_rotation_on_map_build = true
+classname = "visual_button"
+description = "Visual button"
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"model": "{\"path\": \"visual_button_model.glb\", \"scale\": 16 }",
+"size": AABB(0, 0, 0, 0, 0, 0)
+}
+node_class = ""
+transient_node = false

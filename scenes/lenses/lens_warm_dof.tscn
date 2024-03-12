@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://xbrr23dmxi3n"]
+
+[ext_resource type="Script" path="res://scripts/lenses/lens_warm_dof.gd" id="1_bwy30"]
+[ext_resource type="Shader" path="res://shaders/dilate_canvas.gdshader" id="2_s68b3"]
+[ext_resource type="Shader" path="res://shaders/lens_defocus.gdshader" id="3_vgglw"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4lgq6"]
+shader = ExtResource("2_s68b3")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4luij"]
+shader = ExtResource("3_vgglw")
+shader_parameter/focalDistance = 20.0
+shader_parameter/tint = Vector3(1, 0.9, 0.71)
+
+[node name="Lens" type="Node2D"]
+script = ExtResource("1_bwy30")
+
+[node name="pp_Dilate" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Dilate"]
+material = SubResource("ShaderMaterial_4lgq6")
+offset_right = 960.0
+offset_bottom = 540.0
+metadata/_edit_use_anchors_ = true
+
+[node name="pp_Lens" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Lens"]
+material = SubResource("ShaderMaterial_4luij")
+offset_right = 960.0
+offset_bottom = 540.0
+color = Color(1, 0.901961, 0.713726, 1)

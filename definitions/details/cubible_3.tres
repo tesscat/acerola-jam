@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="QodotFGDModelPointClass" load_steps=3 format=3 uid="uid://h7de2aw85oqn"]
+
+[ext_resource type="PackedScene" uid="uid://cmpvj8dihrhb7" path="res://scenes/assets/cubicle3.tscn" id="1_rq0ib"]
+[ext_resource type="Script" path="res://addons/qodot/src/resources/game-definitions/fgd/qodot_fgd_model_point_class.gd" id="2_g4121"]
+
+[resource]
+script = ExtResource("2_g4121")
+trenchbroom_working_folder = "/home/tesscat/acerola_jam"
+trenchbroom_models_folder = ""
+scale_expression = "16"
+generate_size_property = false
+generate_gd_ignore_file = true
+scene_file = ExtResource("1_rq0ib")
+apply_rotation_on_map_build = true
+classname = "detail_cubicle_3"
+description = ""
+qodot_internal = false
+base_classes = Array[Resource]([])
+class_properties = {}
+class_property_descriptions = {}
+meta_properties = {
+"color": Color(0.8, 0.8, 0.8, 1),
+"size": AABB(-8, -8, -8, 8, 8, 8)
+}
+node_class = "Node3D"
+transient_node = false

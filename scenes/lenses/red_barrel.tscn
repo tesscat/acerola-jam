@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://hdgn1ob4gq1m"]
+
+[ext_resource type="Script" path="res://scripts/lenses/lens_red_barrel.gd" id="1_5hfvd"]
+[ext_resource type="Shader" path="res://shaders/fisheye.gdshader" id="2_bsbhj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gfmxs"]
+shader = ExtResource("2_bsbhj")
+shader_parameter/tint = Vector3(1, 0.7, 0.8)
+
+[node name="Lens" type="Node2D"]
+script = ExtResource("1_5hfvd")
+
+[node name="pp_Fisheye" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Fisheye"]
+material = SubResource("ShaderMaterial_gfmxs")
+offset_right = 960.0
+offset_bottom = 540.0
+color = Color(1, 0.72549, 0.8, 1)
+metadata/_edit_use_anchors_ = true

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yqcyu2kp3iww"
+path="res://.godot/imported/RFan_A.obj-fc29421ae0ddd61f2901f969bda67499.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RFan_A.obj-fc29421ae0ddd61f2901f969bda67499.mesh"]
+
+source_file="res://models/office/RFan_A.obj"
+dest_files=["res://.godot/imported/RFan_A.obj-fc29421ae0ddd61f2901f969bda67499.mesh", "res://.godot/imported/RFan_A.obj-fc29421ae0ddd61f2901f969bda67499.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

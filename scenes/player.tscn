@@ -1,0 +1,212 @@
+[gd_scene load_steps=18 format=3 uid="uid://gjoysnm8gfh1"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_dkyk0"]
+[ext_resource type="Shader" path="res://shaders/blur.gdshader" id="2_60g2q"]
+[ext_resource type="Theme" uid="uid://tpyx1xmltsvt" path="res://themes/VHS.tres" id="2_g7cvb"]
+[ext_resource type="Shader" path="res://shaders/pull_depth_tex.gdshader" id="2_g14e6"]
+[ext_resource type="AudioStream" uid="uid://bpgj74t2hggp2" path="res://sfx/wind.mp3" id="2_qm8q8"]
+[ext_resource type="AudioStream" uid="uid://bwq6g5vw8obke" path="res://sfx/thunk.wav" id="3_t06tu"]
+[ext_resource type="Shader" path="res://shaders/vbars_canvas.gdshader" id="4_6kt22"]
+[ext_resource type="Shader" path="res://shaders/glitch_canvas.gdshader" id="4_gmipj"]
+[ext_resource type="PackedScene" uid="uid://hdgn1ob4gq1m" path="res://scenes/lenses/red_barrel.tscn" id="8_1iaed"]
+[ext_resource type="Shader" path="res://shaders/colour_mushing.gdshader" id="8_lguf8"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6a1lg"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_7r1ec"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nappv"]
+render_priority = 127
+shader = ExtResource("2_g14e6")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5vwq4"]
+shader = ExtResource("2_60g2q")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_biktt"]
+shader = ExtResource("4_6kt22")
+shader_parameter/colourSplitIntensity = 0.2
+shader_parameter/noiseIntensity_u = 0.4
+shader_parameter/barsIntensity = 0.2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i1mhf"]
+shader = ExtResource("4_gmipj")
+shader_parameter/rSeed = 4398.0
+shader_parameter/invIntensity = 1.0
+shader_parameter/warpStrength = 0.0
+shader_parameter/warpInp = Vector2(0, 0)
+shader_parameter/glitchOverlay = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f0cxt"]
+shader = ExtResource("8_lguf8")
+shader_parameter/doColourCorrect = null
+
+[node name="Player" type="CharacterBody3D"]
+transform = Transform3D(0.435, 0, 0, 0, 0.435, 0, 0, 0, 0.435, 0, 0, 0)
+script = ExtResource("1_dkyk0")
+
+[node name="Wind" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_qm8q8")
+
+[node name="Thunk" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_t06tu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_6a1lg")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.147, 0)
+
+[node name="ColourVP" type="SubViewport" parent="Head"]
+audio_listener_enable_3d = true
+size = Vector2i(960, 540)
+size_2d_override = Vector2i(960, 540)
+
+[node name="Camera3D" type="Camera3D" parent="Head/ColourVP"]
+cull_mask = 524287
+
+[node name="DepthVP" type="SubViewport" parent="Head"]
+transparent_bg = true
+size = Vector2i(960, 540)
+size_2d_override = Vector2i(960, 540)
+
+[node name="Camera3D" type="Camera3D" parent="Head/DepthVP"]
+near = 0.001
+far = 512.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Head/DepthVP/Camera3D"]
+transform = Transform3D(1.11, 0, 0, 0, 1.11, 0, 0, 0, 1.11, 0, 0, -0.156667)
+layers = 524288
+mesh = SubResource("QuadMesh_7r1ec")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("ShaderMaterial_nappv")
+
+[node name="RayCast3D" type="RayCast3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+target_position = Vector3(0, -2.5, 0)
+collide_with_areas = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Head"]
+transform = Transform3D(2.29885, 0, 0, 0, 2.29885, 0, 0, 0, 2.29885, 0, 0, 0.368703)
+visible = false
+shadow_enabled = true
+spot_range = 19.223
+spot_angle = 46.72
+spot_angle_attenuation = 1e-05
+
+[node name="Lens_red_barrel" parent="." instance=ExtResource("8_1iaed")]
+
+[node name="pp_Blur" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Blur"]
+material = SubResource("ShaderMaterial_5vwq4")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Blind" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Blind"]
+offset_left = -7.0
+offset_top = -8.0
+offset_right = 965.0
+offset_bottom = 547.0
+color = Color(0, 0, 0, 1)
+
+[node name="pp0_HUD" type="CanvasLayer" parent="."]
+
+[node name="Crosshair" type="Label" parent="pp0_HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_g7cvb")
+text = "> <"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 1
+
+[node name="Objectives" type="Label" parent="pp0_HUD"]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+theme = ExtResource("2_g7cvb")
+
+[node name="Prompt" type="Label" parent="pp0_HUD"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+offset_right = 40.0
+grow_vertical = 0
+theme = ExtResource("2_g7cvb")
+vertical_alignment = 2
+
+[node name="Frequency" type="Label" parent="pp0_HUD"]
+visible = false
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+theme = ExtResource("2_g7cvb")
+horizontal_alignment = 2
+
+[node name="Sprint" type="Label" parent="pp0_HUD"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("2_g7cvb")
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="Dialogue" type="Label" parent="pp0_HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 103.0
+offset_right = 20.0
+offset_bottom = 143.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_g7cvb")
+horizontal_alignment = 1
+
+[node name="pp1_VBars" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp1_VBars"]
+material = SubResource("ShaderMaterial_biktt")
+offset_right = 960.0
+offset_bottom = 540.0
+
+[node name="pp2_GlitchMap" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp2_GlitchMap"]
+material = SubResource("ShaderMaterial_i1mhf")
+offset_right = 960.0
+offset_bottom = 540.0
+
+[node name="pp3_ColourCorrect" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp3_ColourCorrect"]
+material = SubResource("ShaderMaterial_f0cxt")
+offset_right = 960.0
+offset_bottom = 540.0

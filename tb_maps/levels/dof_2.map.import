@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://d151eh7l3ykjt"
+path="res://.godot/imported/dof_2.map-e4f8df6debf3664e8970e15661c1db51.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/dof_2.map"
+dest_files=["res://.godot/imported/dof_2.map-e4f8df6debf3664e8970e15661c1db51.tres"]
+
+[params]
+

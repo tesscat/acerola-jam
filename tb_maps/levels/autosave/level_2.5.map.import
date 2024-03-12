@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://ednmcl0u31x0"
+path="res://.godot/imported/level_2.5.map-86f6c518fff5cc86e94e4372438f9c44.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/autosave/level_2.5.map"
+dest_files=["res://.godot/imported/level_2.5.map-86f6c518fff5cc86e94e4372438f9c44.tres"]
+
+[params]
+

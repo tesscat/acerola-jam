@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy36ay640yify"]
+
+[ext_resource type="ArrayMesh" uid="uid://dqpvo21hcnrnk" path="res://models/vhs/vhs.obj" id="1_uyj4q"]
+
+[node name="Vhs" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = ExtResource("1_uyj4q")

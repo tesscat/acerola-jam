@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwo1f3bo73l7r"
+path="res://.godot/imported/CoffeeCupB.obj-fb5aad5c21cf12ca847f280954d140b4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CoffeeCupB.obj-fb5aad5c21cf12ca847f280954d140b4.mesh"]
+
+source_file="res://models/office/CoffeeCupB.obj"
+dest_files=["res://.godot/imported/CoffeeCupB.obj-fb5aad5c21cf12ca847f280954d140b4.mesh", "res://.godot/imported/CoffeeCupB.obj-fb5aad5c21cf12ca847f280954d140b4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djfejrbnq5ax2"
+path="res://.godot/imported/Painting_Small.obj-11f2ed6d83c87ba17752845856ccd804.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Painting_Small.obj-11f2ed6d83c87ba17752845856ccd804.mesh"]
+
+source_file="res://models/office/Painting_Small.obj"
+dest_files=["res://.godot/imported/Painting_Small.obj-11f2ed6d83c87ba17752845856ccd804.mesh", "res://.godot/imported/Painting_Small.obj-11f2ed6d83c87ba17752845856ccd804.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

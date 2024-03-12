@@ -1,0 +1,102 @@
+[gd_scene load_steps=6 format=3 uid="uid://da647ed7ua8ru"]
+
+[ext_resource type="Shader" path="res://shaders/vbars_canvas.gdshader" id="1_budx8"]
+[ext_resource type="Script" path="res://scripts/title_scene.gd" id="1_s8r1k"]
+[ext_resource type="Theme" uid="uid://tpyx1xmltsvt" path="res://themes/VHS.tres" id="2_pdrld"]
+[ext_resource type="AudioStream" uid="uid://c37qqga3d5kct" path="res://sfx/typing.mp3" id="4_fny8b"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_teng8"]
+shader = ExtResource("1_budx8")
+shader_parameter/colourSplitIntensity = 0.4
+shader_parameter/noiseIntensity_u = 0.6
+shader_parameter/barsIntensity = 0.7
+
+[node name="Title" type="Node2D"]
+script = ExtResource("1_s8r1k")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BG" type="ColorRect" parent="CanvasLayer"]
+offset_left = -26.0
+offset_top = -12.0
+offset_right = 980.0
+offset_bottom = 566.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_right = 122.0
+offset_bottom = 15.0
+theme = ExtResource("2_pdrld")
+text = "> A game by tesscat
+> for the acerola jam 0
+
+CLARITY
+"
+
+[node name="Buttons" type="Node2D" parent="CanvasLayer"]
+visible = false
+position = Vector2(0, 119)
+
+[node name="Button" type="Button" parent="CanvasLayer/Buttons"]
+offset_right = 122.0
+offset_bottom = 23.0
+theme = ExtResource("2_pdrld")
+text = ">> START GAME"
+
+[node name="Credits" type="Button" parent="CanvasLayer/Buttons"]
+offset_top = 42.0
+offset_right = 122.0
+offset_bottom = 65.0
+theme = ExtResource("2_pdrld")
+text = ">> CREDITS
+"
+alignment = 0
+
+[node name="Quit" type="Button" parent="CanvasLayer/Buttons"]
+offset_top = 84.0
+offset_right = 122.0
+offset_bottom = 107.0
+theme = ExtResource("2_pdrld")
+text = ">> QUIT"
+alignment = 0
+
+[node name="Credits" type="Label" parent="CanvasLayer"]
+visible = false
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("2_pdrld")
+text = "Red Button Model by ChrispyBurgers (via PolyPizza) [CC-BY]
+Some textures by Amal Kumar (via PolyHaven) [CC0]
+VCR Mono by Riciery Leal (via dafont)
+Bell SFX by tec_studio (via Freesound) [CC0]
+Typing SFX by Trollarch2 (via Freesound) [CC0]
+Ambience by georgedyer (via Freesound) [CC0]
+Thunk by Anthousai (via Freesound) [CC0]
+Lore playback SFX by MrAuralization (via Freesound) [CC-BY]
+VHS Model by Guillaume Brette (via PolyPizza) [CC-BY]
+Furniture by VNB-Leo (via itch.io) [CC0]
+
+Coding, level design, writing & more or less everything else by tesscat
+Made with <3, and Godot, Qodot, and Trenchbroom"
+horizontal_alignment = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource("ShaderMaterial_teng8")
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_fny8b")
+autoplay = true
+
+[connection signal="pressed" from="CanvasLayer/Buttons/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Buttons/Credits" to="." method="on_credits_pressed"]
+[connection signal="pressed" from="CanvasLayer/Buttons/Quit" to="." method="on_quit_pressed"]

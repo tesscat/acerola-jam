@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://oistob10u37o"]
+
+[ext_resource type="Script" path="res://scripts/panel_light.gd" id="1_3bkv2"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_r7afy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnt5p"]
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g5jdp"]
+albedo_color = Color(0.403922, 0.34902, 0.396078, 1)
+
+[node name="PanelLight" type="Node3D"]
+script = ExtResource("1_3bkv2")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.1, 0, 0, 0, 1, 0, 0.421207, 0)
+mesh = SubResource("BoxMesh_r7afy")
+surface_material_override/0 = SubResource("StandardMaterial3D_bnt5p")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.1, 0, 0, 0, 0.115498, 0, 0, 0, 1.1, 0, 0.460056, 0)
+mesh = SubResource("BoxMesh_r7afy")
+surface_material_override/0 = SubResource("StandardMaterial3D_g5jdp")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.296207, 0)
+light_energy = 0.0
+light_size = 1.0
+spot_range = 37.557
+spot_angle = 66.82
+spot_angle_attenuation = 1e-05

@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=3 uid="uid://wqtmpmvr2dsg"]
+
+[ext_resource type="Script" path="res://scripts/lenses/lens_clarity.gd" id="1_cu6ug"]
+[ext_resource type="Shader" path="res://shaders/unsharp_blur.gdshader" id="2_odh1q"]
+[ext_resource type="Shader" path="res://shaders/unsharp_sharpen.gdshader" id="3_5li1w"]
+[ext_resource type="Shader" path="res://shaders/chromatic_aberration.gdshader" id="4_htd4w"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_omfiq"]
+shader = ExtResource("2_odh1q")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vlq65"]
+shader = ExtResource("3_5li1w")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ww0ts"]
+shader = ExtResource("4_htd4w")
+
+[node name="Lens" type="Node2D"]
+script = ExtResource("1_cu6ug")
+
+[node name="pp_Blur" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Blur"]
+material = SubResource("ShaderMaterial_omfiq")
+offset_right = 960.0
+offset_bottom = 540.0
+
+[node name="pp_Sharpen" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Sharpen"]
+material = SubResource("ShaderMaterial_vlq65")
+offset_right = 960.0
+offset_bottom = 540.0
+
+[node name="pp_Chroma" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="pp_Chroma"]
+material = SubResource("ShaderMaterial_ww0ts")
+offset_right = 960.0
+offset_bottom = 540.0

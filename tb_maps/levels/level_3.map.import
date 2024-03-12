@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://baqoes5g4awqt"
+path="res://.godot/imported/level_3.map-558fde1313d0fc6cd5aaf7d0d2dc8a51.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/level_3.map"
+dest_files=["res://.godot/imported/level_3.map-558fde1313d0fc6cd5aaf7d0d2dc8a51.tres"]
+
+[params]
+

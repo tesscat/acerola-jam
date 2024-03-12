@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p00ce0y4tgqg"
+path="res://.godot/imported/CoffeeCup_Filled.obj-23b3b15560a3c60dc0b97079e5f410fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CoffeeCup_Filled.obj-23b3b15560a3c60dc0b97079e5f410fd.mesh"]
+
+source_file="res://models/office/CoffeeCup_Filled.obj"
+dest_files=["res://.godot/imported/CoffeeCup_Filled.obj-23b3b15560a3c60dc0b97079e5f410fd.mesh", "res://.godot/imported/CoffeeCup_Filled.obj-23b3b15560a3c60dc0b97079e5f410fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

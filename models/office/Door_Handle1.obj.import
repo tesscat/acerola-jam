@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ded7od32ecw5f"
+path="res://.godot/imported/Door_Handle1.obj-6dd5325965bb71a6a2a2811de01243df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Door_Handle1.obj-6dd5325965bb71a6a2a2811de01243df.mesh"]
+
+source_file="res://models/office/Door_Handle1.obj"
+dest_files=["res://.godot/imported/Door_Handle1.obj-6dd5325965bb71a6a2a2811de01243df.mesh", "res://.godot/imported/Door_Handle1.obj-6dd5325965bb71a6a2a2811de01243df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
