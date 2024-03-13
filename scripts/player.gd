@@ -13,7 +13,7 @@ class_name Player
 @export var airDecel : float = 1.0
 @export var groundDecel : float = 6.0
 @export var terminalSpeed : float = 20
-@export var sprintTime : float = 10.0
+@export var sprintTime : float = 15.0
 @export var sprintRechargeSpeed : float = 3.0
 @export var paralyze : bool = false
 
@@ -79,9 +79,12 @@ func _ready():
 	DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_DISABLED)
 	setCurrentLens(0)
 	Globals.playerDialogue = $pp0_HUD/Dialogue
+	await get_tree().create_timer(0.2).timeout
+	$Blind.visible = false
 
 func unblind():
 	$Blind.visible = false
+	$Blind/ColorRect.visible = false
 
 func setCurrentLens(newCurrent):
 	if newCurrent == currentLensIdx: return

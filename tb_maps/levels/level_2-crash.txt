@@ -1,0 +1,41 @@
+OS:	Arch Linux
+Qt:	5.15.12
+GL_VENDOR:	AMD
+GL_RENDERER:	AMD Radeon Graphics (radeonsi, renoir, LLVM 16.0.6, DRM 3.57, 6.7.6-arch1-1)
+GL_VERSION:	4.6 (Compatibility Profile) Mesa 24.0.1-arch1.1
+TrenchBroom Version:	2023.1
+TrenchBroom Build:	v2023.1 Release Linux-ubuntu-22.04
+Reason:	SIGSEGV
+Stack trace:
+trenchbroom(+0x87c3c0) [0x5e02eab893c0]
+trenchbroom(+0x87b22a) [0x5e02eab8822a]
+/usr/lib/libc.so.6(+0x3c770) [0x7f2e0c65a770]
+/usr/lib/libQt5Core.so.5(_ZN15QtSharedPointer20ExternalRefCountData9getAndRefEPK7QObject+0xe) [0x7f2e0cd27b7e]
+/usr/lib/libQt5Gui.so.5(_ZN22QWindowSystemInterface25handleWindowScreenChangedINS_15DefaultDeliveryEEEvP7QWindowP7QScreen+0x5a) [0x7f2e0d312f1a]
+/usr/lib/libQt5WaylandClient.so.5(_ZN15QtWaylandClient14QWaylandWindow20handleScreensChangedEv+0x89) [0x7f2e08d31759]
+/usr/lib/libQt5Core.so.5(+0x2c8e27) [0x7f2e0cec8e27]
+/usr/lib/libffi.so.8(+0x7596) [0x7f2e0e5b3596]
+/usr/lib/libffi.so.8(+0x400e) [0x7f2e0e5b000e]
+/usr/lib/libffi.so.8(ffi_call+0x123) [0x7f2e0e5b2bd3]
+/usr/lib/libwayland-client.so.0(+0x7645) [0x7f2e0e5be645]
+/usr/lib/libwayland-client.so.0(+0x7e73) [0x7f2e0e5bee73]
+/usr/lib/libwayland-client.so.0(wl_display_dispatch_queue_pending+0x7c) [0x7f2e0e5bf13c]
+/usr/lib/libwayland-client.so.0(wl_display_roundtrip_queue+0xe0) [0x7f2e0e5c1cf0]
+/usr/lib/libQt5WaylandClient.so.5(_ZN15QtWaylandClient14QWaylandWindow20handleScreensChangedEv+0x2ba) [0x7f2e08d3198a]
+/usr/lib/libQt5Core.so.5(+0x2c8e27) [0x7f2e0cec8e27]
+/usr/lib/libffi.so.8(+0x7596) [0x7f2e0e5b3596]
+/usr/lib/libffi.so.8(+0x400e) [0x7f2e0e5b000e]
+/usr/lib/libffi.so.8(ffi_call+0x123) [0x7f2e0e5b2bd3]
+/usr/lib/libwayland-client.so.0(+0x7645) [0x7f2e0e5be645]
+/usr/lib/libwayland-client.so.0(+0x7e73) [0x7f2e0e5bee73]
+/usr/lib/libwayland-client.so.0(wl_display_dispatch_queue_pending+0x7c) [0x7f2e0e5bf13c]
+/usr/lib/libQt5WaylandClient.so.5(_ZN15QtWaylandClient15QWaylandDisplay13flushRequestsEv+0x86) [0x7f2e08d22f36]
+/usr/lib/libQt5Core.so.5(+0x2c8fe3) [0x7f2e0cec8fe3]
+/usr/lib/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xa7) [0x7f2e0cee2d47]
+/usr/lib/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x134) [0x7f2e0ce92c04]
+/usr/lib/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x93) [0x7f2e0ce940a3]
+trenchbroom(+0x2b86e1) [0x5e02ea5c56e1]
+/usr/lib/libc.so.6(+0x25cd0) [0x7f2e0c643cd0]
+/usr/lib/libc.so.6(__libc_start_main+0x8a) [0x7f2e0c643d8a]
+trenchbroom(+0x2bfa65) [0x5e02ea5cca65]
+

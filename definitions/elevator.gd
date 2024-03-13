@@ -30,8 +30,6 @@ func _enter_tree():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	update_properties()
-	print_debug("MY NAME: ", entranceName)
-	print_debug("TARGET NAME: ", Globals.targetEntrance)
 	if entranceName == Globals.targetEntrance or entranceName == "entry_1" and OS.is_debug_build():
 		$Node3D/PanelLight.lightStrength = 0.0
 		var player = preload("res://scenes/player.tscn").instantiate()
@@ -59,7 +57,6 @@ func _process(delta):
 		has_played = true
 		aplayer.play("door_open")
 	if Globals.player != null and not has_outroed and playerCheck.overlaps_body(Globals.player) and can_leave and levelName != "NONE" and 12000 < (Time.get_ticks_msec() - Globals.player.lastDeath):
-		print_debug("IS OUTROEING")
 		has_outroed = true
 		aplayer.play("door_close")
 
@@ -68,13 +65,12 @@ func nextScene():
 		has_outroed = false
 		aplayer.play("door_open")
 		return
-	print_debug("NEXT SCENE-ING")
 	Globals.lastPos = Globals.player.position - spawn.global_position
 	Globals.lastRotation = Globals.player.rotation - spawn.global_rotation
 	Globals.lastRotation.x = Globals.player.headAngle
-	print_debug("RELS ", Globals.lastPos, " ", Globals.lastRotation)
 	Globals.player.queue_free()
 	Globals.targetEntrance = targetEntrance
+	Input.flush_buffered_events()
 	Manager.changeSceneToNamed(levelName)
 
 func unblindPlayer():

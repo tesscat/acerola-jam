@@ -24,6 +24,7 @@ const linearProgression = {"title":preload("res://scenes/title.tscn"),
 	"ending_cutscene":preload("res://scenes/lore/lore_true_ending.tscn"),
 	# the evac ending
 	"evac_1": preload("res://scenes/levels/Evac_1.tscn"),
+	"evac_2":preload("res://scenes/levels/Evac_2.tscn"),
 	"ending_evac":preload("res://scenes/lore/lore_evac_ending.tscn"),
 	"finish":preload("res://scenes/levels/LevelNull.tscn")}
 var currentSceneIdx = 0

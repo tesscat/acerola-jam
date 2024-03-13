@@ -72,7 +72,8 @@ offset_top = -23.0
 grow_horizontal = 0
 grow_vertical = 0
 theme = ExtResource("2_pdrld")
-text = "Red Button Model by ChrispyBurgers (via PolyPizza) [CC-BY]
+text = "Red Button Model by
+ChrispyBurgers (via PolyPizza) [CC-BY]
 Some textures by Amal Kumar (via PolyHaven) [CC0]
 VCR Mono by Riciery Leal (via dafont)
 Bell SFX by tec_studio (via Freesound) [CC0]
@@ -83,7 +84,8 @@ Lore playback SFX by MrAuralization (via Freesound) [CC-BY]
 VHS Model by Guillaume Brette (via PolyPizza) [CC-BY]
 Furniture by VNB-Leo (via itch.io) [CC0]
 
-Coding, level design, writing & more or less everything else by tesscat
+Coding, level design, writing &
+more or less everything else by tesscat
 Made with <3, and Godot, Qodot, and Trenchbroom"
 horizontal_alignment = 2
 

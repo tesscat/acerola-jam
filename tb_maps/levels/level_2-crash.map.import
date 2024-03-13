@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://ddcy5dajwa2px"
+path="res://.godot/imported/level_2-crash.map-a2e44d55b97a23d2642629ac1bfdfb18.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/level_2-crash.map"
+dest_files=["res://.godot/imported/level_2-crash.map-a2e44d55b97a23d2642629ac1bfdfb18.tres"]
+
+[params]
+

@@ -19,7 +19,7 @@
 ( -112 -16 0 ) ( -112 -15 0 ) ( -112 -16 1 ) main/rubber [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -112 -16 0 ) ( -112 -16 1 ) ( -111 -16 0 ) main/rubber [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -112 -16 0 ) ( -111 -16 0 ) ( -112 -15 0 ) main/rubber [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -64 16 16 ) ( -64 17 16 ) ( -63 16 16 ) main/rubber [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -64 16 16 ) ( -64 17 16 ) ( -63 16 16 ) main/white_panels [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -64 16 16 ) ( -63 16 16 ) ( -64 16 17 ) main/rubber [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -64 16 16 ) ( -64 16 17 ) ( -64 17 16 ) main/rubber [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
@@ -55,7 +55,7 @@
 ( 960 -16 16 ) ( 960 -16 17 ) ( 960 -17 16 ) main/rubber [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 960 -16 16 ) ( 959 -16 16 ) ( 960 -16 17 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 1008 16 0 ) ( 1007 16 0 ) ( 1008 15 0 ) main/rubber [ 1 1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
-( 960 -16 16 ) ( 960 -17 16 ) ( 959 -16 16 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
+( 960 -16 16 ) ( 960 -17 16 ) ( 959 -16 16 ) main/white_panels [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 0 ] 180 1 1
 ( 1008 16 0 ) ( 1008 16 1 ) ( 1007 16 0 ) main/rubber [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 1008 16 0 ) ( 1008 15 0 ) ( 1008 16 1 ) main/rubber [ -1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
@@ -128,7 +128,10 @@
 "classname" "elevator"
 "origin" "984 0 12"
 "angle" "180"
-"level_name" "ending_evac"
+"level_name" "evac_2"
+"entrance_name" "entry_2"
+"is_spawn" "0"
+"target_entrance" "entry_1"
 }
 // entity 3
 {
@@ -145,7 +148,7 @@
 // entity 5
 {
 "classname" "trigger_lore"
-"lore" "Evacuation log #4:\nIt moves so fast.\nAnd it learns.\nIt knew. It knew all along.\nHow delusional we were, to try and\n\"research\" the fundamental forces of the universe?\nHell, it'd be a miracle if even this tape survived."
+"lore" "Evacuation log #4:\nIt moves so fast.\nAnd it learns.\nIt knew. It knew all along.\nHow delusional we were, to try and\n'research' the fundamental forces of the universe?\nHell, it'd be a miracle if even this tape survived."
 // brush 0
 {
 ( -60 -28 16 ) ( -60 -27 16 ) ( -60 -28 17 ) main/white_panels [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -159,7 +162,7 @@
 // entity 6
 {
 "classname" "trigger_lore"
-"lore" "Evacuation log #6:\nThe Clarity, they called it.\nReally, a fitting name for the clearest-thinking thing known to man,\nan entity with the sole purpose of mkaing everything the same.\nNo day, no night, just the eternal uniformity.\nAnd it learns."
+"lore" "Evacuation log #6:\nThe Clarity, they called it.\nReally, a fitting name for\nan entity with the sole purpose of making everything the same.\nNo day, no night, just the eternal uniformity.\nAnd it learns."
 // brush 0
 {
 ( 132 24 16 ) ( 132 25 16 ) ( 132 24 17 ) main/white_panels [ 0 -1 0 52 ] [ 0 0 -1 0 ] 0 1 1
@@ -213,7 +216,7 @@
 // entity 12
 {
 "classname" "trigger_lore"
-"lore" "Evacuation log #20:\nTurns out the Lenses we made to see it\njust let it see us too.\nWho would've thought?\nPeople were saying it was talking to them, calling gently for them to jump in,\nthe irresistible call of the void."
+"lore" "Evacuation log #20:\nTurns out the Lenses we made to see it\njust let it see us too.\nWho would've thought?\nPeople were saying it was talking to them,\ncalling gently for them to jump in,\nthe irresistible call of the void."
 // brush 0
 {
 ( 644 -4 16 ) ( 644 -3 16 ) ( 644 -4 17 ) main/white_panels [ 0 -1 0 24 ] [ 0 0 -1 0 ] 0 1 1

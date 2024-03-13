@@ -18,8 +18,12 @@ func update_properties():
 
 @export var lightStrength = 0.2
 
+@onready var spot : SpotLight3D = $SpotLight3D
+@onready var mesh : MeshInstance3D = $MeshInstance3D
 func _ready():
-	$SpotLight3D.light_energy = lightStrength
+	spot.light_energy = lightStrength
+	mesh.get_surface_override_material(0).emission_energy_multiplier = lightStrength
 
 func _process(_delta):
-	$SpotLight3D.light_energy = lightStrength
+	spot.light_energy = lightStrength
+	mesh.get_surface_override_material(0).emission_energy_multiplier = lightStrength

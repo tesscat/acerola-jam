@@ -9,5 +9,4 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if overlaps_body(Globals.player):
-		print_debug("Died to area death")
 		Globals.player.die()

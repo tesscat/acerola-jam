@@ -32,6 +32,10 @@ window/stretch/scale=1.52
 
 project/assembly_name="jammin"
 
+[editor]
+
+movie_writer/movie_file="/home/tesscat/movie.mp4.avi"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/qodot/plugin.cfg")

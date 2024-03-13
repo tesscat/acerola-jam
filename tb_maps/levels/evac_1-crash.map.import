@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://bhley8jeyt6wn"
+path="res://.godot/imported/evac_1-crash.map-29adac3973d4da7b3ea1ff28bcca5053.tres"
+
+[deps]
+
+source_file="res://tb_maps/levels/evac_1-crash.map"
+dest_files=["res://.godot/imported/evac_1-crash.map-29adac3973d4da7b3ea1ff28bcca5053.tres"]
+
+[params]
+
